@@ -19,6 +19,8 @@ for letter in sammy:
 while loop? Why or why not?
 yes a for loop can be nested within a while loop. the nested for loop will run for each iteration of the outer while loop. 
 
+outer and nested loop are independent of each other and python runs these loops chronologically.
+
 example: Perfect Number:
 
 a = 1
