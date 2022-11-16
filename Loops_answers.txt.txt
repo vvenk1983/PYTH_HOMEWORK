@@ -6,7 +6,7 @@ while loops are based on a conditional statement.
 
 3. When you want to iterate a specific number of times, would you typically use a while loop or a
 for loop?
-you would use a for loop
+you would use a while loop
 
 4. Is it possible to loop through a string one letter at a time? What is the example given in the article?
 
