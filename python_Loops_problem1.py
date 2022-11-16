@@ -3,7 +3,7 @@
 #   Impressively Intelligent!"
 #   Otherwise if the name contains an "o," print out the name plus "O My! How
 #   Original!"
-Otherwise, print the name plus "Ehh, a's and e's are so ordinary."
+# Otherwise, print the name plus "Ehh, a's and e's are so ordinary."
 
 disney_characters = ["simba", "ariel", "pumba", "flounder", "nala", "ursula",
 "scar", "flotsam", "timon"]
