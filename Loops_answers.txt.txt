@@ -1,0 +1,38 @@
+1. What is a nested loop?
+a nested loop is a loop within the body of another loop.
+
+2. Which kind of loop is based on a conditional statement: while loops or for loops?
+while loops are based on a conditional statement.
+
+3. When you want to iterate a specific number of times, would you typically use a while loop or a
+for loop?
+you would use a for loop
+
+4. Is it possible to loop through a string one letter at a time? What is the example given in the article?
+
+sammy = 'Sammy'
+
+for letter in sammy:
+	print(letter)
+
+5. Extrapolate from what you learned in the articles: Do you think a for loop be nested inside a
+while loop? Why or why not?
+yes a for loop can be nested within a while loop. the nested for loop will run for each iteration of the outer while loop. 
+
+example: Perfect Number:
+
+a = 1
+while a <= 100:
+	y_sum  = 0
+
+	for i in range(1, a):
+		if a % i == 0:
+			y_sum = y_sum + i
+	if y_sum == a:
+		print('Perfect Number:', a)
+	a = a + 1
+
+output:
+
+Perfect Number: 6
+Perfect Number: 28
